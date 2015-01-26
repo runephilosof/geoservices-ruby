@@ -19,7 +19,7 @@ describe Geoservice do
       expect(@service.query(0)["features"].length).to eq(1000)
     end
     it "should be countable" do
-      expect(@service.count(0)["count"]).to eq(1374)
+      expect(@service.count(0)["count"]).to eq(1376)
     end
     it "should have features" do
       expect(@service.features(0,0).length).to eq(1)
